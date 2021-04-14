@@ -39,6 +39,9 @@ class Faculty {
   get department() {
     return this._department;
   }
+  toString(){
+    return `\nFaculty:${this._facultyName}\nDepartment:${this._department}`
+  }
 }
 
 class Student {
